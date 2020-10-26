@@ -15,6 +15,7 @@
 		2705460E254792FE00B86323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2705460C254792FE00B86323 /* LaunchScreen.storyboard */; };
 		27054619254792FE00B86323 /* for_forNischalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27054618254792FE00B86323 /* for_forNischalTests.swift */; };
 		27054624254792FE00B86323 /* for_forNischalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27054623254792FE00B86323 /* for_forNischalUITests.swift */; };
+		270546352547932600B86323 /* MappingAndParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270546342547932600B86323 /* MappingAndParsing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2705461F254792FE00B86323 /* for forNischalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "for forNischalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27054623254792FE00B86323 /* for_forNischalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = for_forNischalUITests.swift; sourceTree = "<group>"; };
 		27054625254792FE00B86323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270546342547932600B86323 /* MappingAndParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingAndParsing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				27054601254792FB00B86323 /* AppDelegate.swift */,
 				27054603254792FB00B86323 /* SceneDelegate.swift */,
 				27054605254792FB00B86323 /* ViewController.swift */,
+				270546342547932600B86323 /* MappingAndParsing.swift */,
 				27054607254792FB00B86323 /* Main.storyboard */,
 				2705460A254792FE00B86323 /* Assets.xcassets */,
 				2705460C254792FE00B86323 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27054606254792FB00B86323 /* ViewController.swift in Sources */,
+				270546352547932600B86323 /* MappingAndParsing.swift in Sources */,
 				27054602254792FB00B86323 /* AppDelegate.swift in Sources */,
 				27054604254792FB00B86323 /* SceneDelegate.swift in Sources */,
 			);
