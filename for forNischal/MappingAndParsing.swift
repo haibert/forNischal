@@ -16,14 +16,14 @@ struct UserInformation: Codable {
 // MARK: - DataClass
 struct DataClass: Codable {
     
-    var userID: String? = ""
-    var clientID: String? = ""
-    var Name: String? = ""
-    var lastName: String? = ""
-    var emailAddress: String? = ""
-    var techID: String? = ""
-    var additionalCompanies: String? = ""
-    var clientDetails: ClientDetails
+    let userID: String?
+    let clientID: String?
+    let Name: String?
+    let lastName: String?
+    let emailAddress: String?
+    let techID: String?
+    let additionalCompanies: String?
+    let clientDetails: ClientDetails
     
     enum CodingKeys: String, CodingKey {
         case userID, techID, clientID
@@ -63,24 +63,24 @@ struct DataClass: Codable {
 }
 // MARK: - ClientDetails
 struct ClientDetails: Codable {
-    var clientID:String? = ""
-    var firstName: String? = ""
-    var lastName: String? = ""
-    var email: String? = ""
-    var customerName: String? = ""
-    var businessAddress: String? = ""
-    var businessCity: String? = ""
-    var businessState: String? = ""
-    var businessZip: String? = ""
-    var businessCountry: String? = ""
-    var businessPhone: String? = ""
-    var businessFax: String? = "" // null value
-    var mobilePhone: String? = ""
-    var contactName: String? = ""
-    var contactTitle: String? = ""
-    var contactPhone: String? = ""
-    var contactEmail: String? = ""
-    var lastUpdated: String? = ""
+    let clientID:String?
+    let firstName: String?
+    let lastName: String?
+    let email: String?
+    let customerName: String?
+    let businessAddress: String?
+    let businessCity: String?
+    let businessState: String?
+    let businessZip: String?
+    let businessCountry: String?
+    let businessPhone: String?
+    let businessFax: String?  // null value
+    let mobilePhone: String?
+    let contactName: String?
+    let contactTitle: String?
+    let contactPhone: String?
+    let contactEmail: String?
+    let lastUpdated: String?
     
     
     enum CodingKeys: String, CodingKey {
